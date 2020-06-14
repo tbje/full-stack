@@ -13,7 +13,6 @@ object Client {
 
   def el[T <: dom.raw.HTMLElement] (id: String) = dom.document.getElementById(id).asInstanceOf[T]
 
-
   def main(args: Array[String]): Unit = {
     println(s"Trying to get time from server ...")
 

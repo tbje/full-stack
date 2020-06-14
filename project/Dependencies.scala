@@ -34,5 +34,4 @@ object Deps {
   val client = Def.setting(shared.value ++ (
     "org.scala-js"               %%% "scalajs-dom"     % Version.scalajsDom ::
     Nil))
-
 }
