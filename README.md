@@ -5,7 +5,7 @@ When moving to sjs 1.x I ran into the issue
 
 compile and fastOptJS works well.
 
-
+```
 sbt:full-stack> last client/fullOptJS
 [info] Full optimizing /home/tbje/proj/full-stack/js/target/scala-2.13/client-opt.js
 [debug] Linker: Compute reachability: 447619 us
@@ -117,3 +117,4 @@ sbt:full-stack> last client/fullOptJS
 [error] [source unknown]
 [error]   Parent(BLOCK): https://raw.githubusercontent.com/scala-js/scala-js/v1.1.0/javalib/src/main/scala/java/util/HashSet.scala:43:20
 [error] [source unknown]
+```
