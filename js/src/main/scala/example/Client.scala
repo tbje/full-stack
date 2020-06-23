@@ -16,6 +16,7 @@ object Client {
   def main(args: Array[String]): Unit = {
     println(s"Trying to get time from server ...")
 
+    println(java.time.ZonedDateTime.now)
     val mainDiv = el[dom.html.Div](Ids.main)
 
     Wire[shared.Api].getFromServer().call().onComplete {

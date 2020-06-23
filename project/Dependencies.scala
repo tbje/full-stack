@@ -33,5 +33,7 @@ object Deps {
 
   val client = Def.setting(shared.value ++ (
     "org.scala-js"               %%% "scalajs-dom"     % Version.scalajsDom ::
+    "io.github.cquiroz"          %%% "scala-java-time"      % "2.0.0" ::
+    "io.github.cquiroz"          %%% "scala-java-time-tzdb" % "2.0.0" ::
     Nil))
 }
