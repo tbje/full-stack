@@ -15,7 +15,7 @@ object WebServer {
 
     val service = new WebService()
     import system.dispatcher
-    Http().bindAndHandle(service.apply(), interface, port)
+    Http().newServerAt(interface, port).bind(service.apply())
 
     println(s"Server online at http://$interface:$port")
 
