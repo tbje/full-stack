@@ -7,7 +7,7 @@ object Version {
   val scala          = "2.13.3"
   val scalajsDom     = "1.0.0"
   val scalajsScripts = "1.1.4"
-  val scalatags      = "0.9.1"
+  val scalatags      = "0.9.3"
 }
 
 object Deps {
