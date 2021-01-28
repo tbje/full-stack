@@ -1,7 +1,7 @@
 object Version {
   val akkaHttp       = "10.1.12"
   val akka           = "2.6.8"
-  val autowire       = "0.3.2"
+  val autowire       = "0.3.3"
   val boopickle      = "1.3.3"
   val monocle        = "2.0.5"
   val scala          = "2.13.3"
