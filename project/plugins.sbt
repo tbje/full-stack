@@ -3,7 +3,7 @@ resolvers += Resolver.bintrayIvyRepo("eed3si9n", "sbt-plugins")
 // fast development turnaround when using sbt ~re-start
 addSbtPlugin("io.spray" % "sbt-revolver" % "0.9.1")
 
-addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.15.0" exclude("org.apache.maven", "maven-plugin-api"))
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "2.1.3" exclude("org.apache.maven", "maven-plugin-api"))
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.7.4")
 
