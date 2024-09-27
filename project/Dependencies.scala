@@ -3,7 +3,7 @@ object Version {
   val akka           = "2.6.8"
   val autowire       = "0.3.2"
   val boopickle      = "1.3.3"
-  val monocle        = "2.0.5"
+  val monocle        = "2.1.0"
   val scala          = "2.13.3"
   val scalajsDom     = "1.0.0"
   val scalajsScripts = "1.1.4"
